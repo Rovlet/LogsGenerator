@@ -1,0 +1,5 @@
+VICTIM_IP = ""
+LOGIN_LINK = f"http://{VICTIM_IP}/login.php"
+LINK_AFTER_LOGIN = f"http://{VICTIM_IP}/index.php"
+PASSWORDS_FILE = "short.txt"
+USERS_FILE = "users.txt"
