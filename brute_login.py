@@ -65,4 +65,4 @@ with open(f"{USERS_FILE}", 'r', encoding="utf-8") as names:
             for password in passwords:
                 t = threading.Thread(target=Sign_in, args=(url, username, password))
                 t.start()
-                time.sleep(2)
+                time.sleep(0.5)
