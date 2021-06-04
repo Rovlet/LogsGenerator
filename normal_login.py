@@ -17,8 +17,8 @@ def go_to_page(page):
     'Content-Type':'application/x-www-form-urlencoded',
     'Upgrade-Insecure-Requests':'1',
     'Cookie':a[0]}
-    requests.get(f"{page}", headers=headers)
-    print(requests.text)
+    response = requests.get(f"{page}", headers=headers)
+    print(response.text)
 
 def Sign_in(user, password):
     password = password.strip()
