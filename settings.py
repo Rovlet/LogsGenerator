@@ -1,4 +1,5 @@
-VICTIM_IP = ""
+VICTIM_IP = ""  # 10.0.0.5
+VICTIM_NETWORK = ""  # 10.0.0.0/24
 START_LINK = f"http://{VICTIM_IP}"
 LOGIN_LINK = f"{START_LINK}/login.php"
 LINK_AFTER_LOGIN = f"http://{VICTIM_IP}/index.php"

@@ -53,7 +53,7 @@ def get_cookie_token(url_start):
     cook[1]=('security','medium')
     a=[(';'.join(['='.join(item)for item in cook]))]
     a.append(s)
-    return a;
+    return a
 
 url=f"{LOGIN_LINK}"
 a=get_cookie_token(url)
